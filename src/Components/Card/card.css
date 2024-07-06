@@ -1,0 +1,110 @@
+.simple-card {
+	margin: 1rem;
+	width: 20rem;
+	height: auto;
+	border: 0.1rem solid rgba(0, 0, 0, 0.096);
+	margin: auto;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+		rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+a {
+	text-decoration: none;
+}
+
+.simple-card h1 {
+	padding: 0.5rem;
+}
+
+.simple-card p {
+	padding: 0.5rem;
+}
+
+.img-card {
+	margin: 1rem;
+	width: 20rem;
+	height: auto;
+	border: 0.1rem solid rgba(0, 0, 0, 0.096);
+	margin: auto;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+		rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.img-card img {
+	width: 20rem;
+}
+.img-card h1 {
+	padding: 1rem;
+	padding-bottom: 0.5rem;
+}
+.img-card p {
+	padding-top: 0.5rem;
+	padding: 1rem;
+}
+
+.img-card .avatar img {
+	width: 3em;
+	height: 3em;
+	border-radius: 50%;
+	padding: 0.5rem;
+}
+
+.img-card .avatar {
+	display: flex;
+}
+
+.img-card h2 {
+	padding-left: 0.5rem;
+	padding-bottom: 0.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.img-card .avatar h2 {
+	font-weight: 400;
+}
+.eCommerce-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+.eCommerce-card img {
+	width: 14rem;
+	height: 15rem;
+}
+.eCommerce-card {
+	width: 14rem !important;
+	border: 1.5px solid #cfd2d87a;
+	padding: 1rem;
+	margin: 0.5rem;
+}
+.eCommerce-card h1 {
+	font-size: large;
+	padding-left: 1rem;
+	padding-bottom: 0.5rem;
+	color: #080808ce;
+	padding-inline-end: 1rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.eCommerce-card h2 {
+	font-size: medium;
+	padding-left: 1rem;
+}
+.eCommerce-card h3 {
+	padding-left: 1rem;
+	padding-top: 0.5rem;
+	font-size: small;
+	color: grey;
+}
+.eCommerce-card .remove-btn {
+	width: 2rem;
+	height: 2rem;
+	background-color: whitesmoke;
+	border-radius: 50%;
+	border: none;
+	color: rgb(0, 0, 0);
+	position: relative;
+	bottom: 17.5em;
+	display: flex;
+	left: 13.5em;
+}

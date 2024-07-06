@@ -1,0 +1,30 @@
+.stacked-list li {
+	border: 0.1rem solid rgba(163, 163, 163, 0.521);
+	padding: 1rem;
+	cursor: pointer;
+}
+
+.list-decor {
+	list-style: none;
+}
+.list-heading:hover {
+	background-color: white;
+	color: black;
+}
+
+.list-decor li:hover {
+	background-color: var(--primary-light-color);
+	color: white;
+}
+
+.nested-list li {
+	padding: 0.5rem;
+}
+
+.nested-list li:hover {
+	cursor: pointer;
+}
+
+.list-heading {
+	border-bottom: 0.1rem solid rgba(163, 163, 163, 0.521);
+}

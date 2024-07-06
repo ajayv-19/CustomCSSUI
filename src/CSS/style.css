@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+.brand {
+	font-family: "Pacifico", cursive;
+	padding-left: var(--spacing1);
+	cursor: pointer;
+	padding: 0.5rem;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--primary-color: #000000;
+	--secondary-color: #ffffff;
+	--spacing1: 1rem;
+}
+
+a {
+	text-decoration: none;
+}
+body {
+	font-family: "Open Sans", sans-serif;
+}
+
+.hero {
+	font-size: 1.5rem;
+	padding-top: 6rem;
+	padding-bottom: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.hero div {
+	padding: 0.5rem;
+}
+
+.hero-btn button {
+	outline: none;
+	padding: var(--spacing1);
+	border: 0.1rem solid var(--primary-color);
+	border-radius: 0.5rem;
+	margin: 0.4rem;
+}
+
+.btn-primary {
+	background-color: var(--primary-color);
+	background-image: linear-gradient(
+		to top,
+		#000000,
+		#0c0c0c,
+		#151515,
+		#1b1b1b,
+		#222222
+	);
+}
+
+.btn-primary a {
+	color: var(--secondary-color);
+	font-size: 1rem;
+}
+
+.btn-secondary a {
+	color: var(--primary-color);
+	font-size: 1rem;
+}
+
+.navigation {
+	display: none;
+}
+
+@media screen and (min-width: 600px) {
+	.footer {
+		position: fixed;
+		bottom: 0;
+	}
+}

@@ -1,0 +1,28 @@
+.alert > div {
+	padding: 1rem;
+	margin: 1rem;
+}
+
+.alert-primary {
+	background-color: var(--primary-light-color);
+	color: black;
+}
+
+.alert-secondary {
+	background-color: var(--secondary-light-color);
+	color: black;
+}
+.alert-success {
+	background-color: var(--success-light-color);
+	color: black;
+}
+
+.alert-danger {
+	background-color: var(--danger-light-color);
+	color: black;
+}
+
+.alert-info {
+	background-color: var(--info-light-color);
+	color: black;
+}

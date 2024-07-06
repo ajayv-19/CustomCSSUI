@@ -1,0 +1,107 @@
+.avatar-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.badge {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.badge-primary {
+	background-color: var(--primary-color);
+	padding: 0.5rem;
+	display: flex;
+	border: none;
+	color: white;
+	width: max-content;
+}
+
+.badge-circle {
+	width: 2rem;
+	height: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0.5rem;
+	border-radius: 50%;
+	font-size: 1rem;
+	color: #fff;
+	background: var(--success-color);
+}
+
+.badge div {
+	margin: 1rem;
+}
+
+.avatar-sm img {
+	width: 4em;
+	height: 4em;
+	border-radius: 50%;
+}
+
+.badge-success {
+	background: var(--success-color);
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+	position: relative;
+	left: 3.5rem;
+	bottom: 2.2rem;
+	border: 0.1rem solid white;
+}
+
+.badge-grey {
+	background-color: rgb(131, 131, 131);
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+	position: relative;
+	left: 3.5rem;
+	bottom: 2.2rem;
+	border: 0.1rem solid white;
+}
+
+.badge-number {
+	width: 1rem;
+	height: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	font-size: 0.5rem;
+	color: #fff;
+	border-radius: 50%;
+	position: relative;
+	left: 2.2rem;
+	bottom: 3.4rem;
+	padding: 0.1rem;
+	background: var(--primary-color);
+}
+
+.badge-number-3x {
+	width: 1rem;
+	height: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.5rem;
+	color: #fff;
+	border-radius: 50%;
+	position: relative;
+	left: 3rem;
+	bottom: 4.5rem;
+	padding: 0.2rem;
+	background: var(--success-color);
+}
+
+.avatar-center img {
+	padding: 1rem;
+}
+
+.avatar-center i {
+	padding: 1rem;
+}

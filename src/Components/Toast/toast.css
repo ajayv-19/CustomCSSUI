@@ -1,0 +1,85 @@
+.toast {
+	border-left: 0.4rem solid var(--primary-light-color);
+	position: fixed;
+	top: 10rem;
+	right: 4rem;
+	background-color: rgb(199, 199, 199);
+	border-radius: 0.3rem;
+	padding: 0.6rem;
+	overflow: hidden;
+	transform: translateX(calc(100% + 15rem));
+	transition: all 0.5s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+.toast.active {
+	transform: translateX(calc(0%));
+}
+
+.toast-content {
+	display: flex;
+	align-items: center;
+}
+.toast-message {
+	display: flex;
+	flex-direction: column;
+	margin: 0 1rem;
+}
+
+.toast-check {
+	height: 1.6rem;
+	width: 1.6rem;
+	background-color: var(--success-color);
+	color: white;
+	font-size: 1.2rem;
+	border-radius: 50%;
+}
+
+.toast-text1 {
+	font-size: 1rem;
+	font-weight: 600;
+}
+.toast-text2 {
+	font-size: 1rem;
+	font-weight: 400;
+}
+.toast-close {
+	position: absolute;
+	top: 0rem;
+	right: 0.3rem;
+	padding: 5px;
+	cursor: pointer;
+	font-size: 0.8rem;
+	color: black;
+	opacity: 0.8;
+}
+
+.toast-close:hover {
+	opacity: 1;
+}
+
+.toast-progress {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 0.2rem;
+	width: 100%;
+	background-color: aliceblue;
+}
+
+.toast-progress::before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	background-color: var(--primary-light-color);
+}
+
+.toast-progress.active::before {
+	animation: progress 5s linear forwards;
+}
+@keyframes progress {
+	100% {
+		right: 100%;
+	}
+}

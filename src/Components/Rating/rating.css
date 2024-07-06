@@ -1,0 +1,25 @@
+.rating input {
+	display: none;
+}
+.rating {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	align-items: center;
+}
+
+.rating label {
+	display: flex;
+
+	color: #444;
+	padding: 10px;
+
+	transition: all 0.2s ease;
+}
+.rating input:not(:checked) ~ label:hover,
+.rating input:not(:checked) ~ label:hover ~ label {
+	color: gold;
+}
+.rating input:checked ~ label {
+	color: gold;
+}

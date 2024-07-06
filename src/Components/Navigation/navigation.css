@@ -1,0 +1,61 @@
+.nav {
+	background-color: var(--primary-light-color);
+	display: block;
+}
+
+.nav-list a {
+	color: white;
+	padding: 0.5rem;
+}
+.nav-list a:hover {
+	border-bottom: 0.1rem solid var(--primary-color);
+	padding-bottom: 0.4rem;
+}
+
+.nav-list {
+	display: flex;
+	flex-direction: row;
+	padding: 1rem;
+	cursor: pointer;
+}
+.nav-list a {
+	text-decoration: none;
+}
+.nav-list li {
+	list-style: none;
+	font-size: 1.1rem;
+}
+
+.nav-mobile-list {
+	justify-content: space-between;
+}
+
+.nav-hide {
+	display: none;
+}
+
+.nav-responsive {
+	display: flex;
+}
+
+.nav-toggle {
+	background-color: transparent;
+	border: 0;
+	display: flex;
+}
+
+.nav-mobile {
+	display: flex;
+	float: right;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.nav-collapse {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.nav-list li :hover {
+	color: #000000f5;
+}

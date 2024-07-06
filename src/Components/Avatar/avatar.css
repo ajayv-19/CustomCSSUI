@@ -1,0 +1,42 @@
+.avatar-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.avatar img {
+	width: 4em;
+	height: 4em;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.avatar-size div {
+	margin: 1rem;
+}
+
+.avatar-xs img {
+	width: 2em;
+	height: 2em;
+	border-radius: 50%;
+}
+
+.avatar-sm img {
+	width: 4em;
+	height: 4em;
+	border-radius: 50%;
+}
+
+.avatar-md img {
+	width: 6em;
+	height: 6em;
+	border-radius: 50%;
+}
+
+.avatar-lg img {
+	width: 8em;
+	height: 8em;
+	border-radius: 50%;
+}

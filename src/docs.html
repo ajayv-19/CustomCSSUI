@@ -1,0 +1,1479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>docs - Ajay</title>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/stackoverflow-dark.min.css"
+    integrity="sha512-9F4w40pQJloG92QgszKGVFODKAkZ70xtcDe2IPcVELXMmkxkojfL6jcP6XSf1NTf4yVc3K0T9h/0gPp8bVIn6w=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./CSS/docs.css" />
+  <link rel="stylesheet" href="./CSS/component.css" />
+  <link rel="stylesheet" href="./CSS/nav.css" />
+</head>
+
+<body>
+
+
+  <div class="sticky-nav">
+    <div class="mobile-nav-button">
+      <div class="brand">
+        <h1><a href="./docs.html">Ajay</a></h1>
+      </div>
+      <button class="navigation">
+        <i class="fas fa-bars fa-2x"></i>
+      </button>
+    </div>
+    <div class="desktop-main-nav">
+      <div class="brand">
+        <h1><a href="./index.html">Ajay</a></h1>
+      </div>
+      <div class="docs">
+        <h3><a href="./docs.html">Docs</a></h3>
+        <span> v.1.0.0</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="row ">
+    <div class="side-nav content-top" id="side-nav">
+      <ul>
+        <li><a class="show-component" href="#avatar-content">Avatar</a></li>
+        <li><a class="show-component" href="#alert-content">Alert</a></li>
+        <li><a class="show-component" href="#badge-content">Badge</a></li>
+        <li><a class="show-component" href="#button-content">Button</a></li>
+        <li><a class="show-component" href="#card-content">Card</a></li>
+        <li><a class="show-component" href="#image-content">Image</a></li>
+        <li><a class="show-component" href="#input-content">Input</a></li>
+        <li><a class="show-component" href="#lists-content">Lists</a></li>
+        <li><a class="show-component" href="#navigation-content">Navigation</a></li>
+        <li><a class="show-component" href="#modal-content">Modal</a></li>
+        <li><a class="show-component" href="#rating-content">Rating</a></li>
+        <li><a class="show-component" href="#grid-content">Grid</a></li>
+        <li><a class="show-component" href="#text-utl-content">Text Utilities</a></li>
+        <li><a class="show-component" href="#toast-content">Toast</a></li>
+      </ul>
+    </div>
+
+
+    <div class="show-content">
+
+      <section>
+        <h1 class="h1-docs content-top">Introduction</h1>
+        <div class="description">
+          <p class="margin-docs">
+            Ajay is an open source CSS library for building responsive sites by
+            using easily accessible and resuable components.
+          </p>
+        </div>
+      </section>
+      <section>
+        <h2 class="margin-docs">
+          The name "Ajay" comes from its meaning that is
+        </h2>
+        <div class="img-meaning">
+          <img src="./assets/Meaning.jpg" alt="" />
+        </div>
+        <h2 class="margin-docs">
+          Hence Ajay UI is the substance used for colouring and designing the
+          web🌐
+        </h2>
+      </section>
+      <section>
+        <div class="setup">
+          <h2 class="margin-docs">Quick Setup Guide</h2>
+          <p class="margin-docs">
+
+            In order to use Ajay in your project, Copy the Link given below and
+            paste it in the</p>
+          <pre class="head-tag"> &lt;head&gt; 
+        </pre>
+          <p class="margin-docs">tag of your html, above all other style sheets</p>
+          <section>
+            <div class="highlight-code">
+              <pre>
+                        <code class="html"  id="docs-css-link" >
+          &lt;link rel="stylesheet" href="https://Ajay.netlify.app/CSS/component.css"&gt;
+                        </code>
+                        </pre>
+            </div>
+          </section>
+          <div class="copy">
+            <button class="copy-btn" data-clipboard-target="#docs-css-link">
+              <i class="far fa-copy"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+
+      <section>
+        <h1 class="  h1-docs content-top" id="avatar-content">Avatar</h1>
+        <p class="margin-docs">
+          An icon or figure representing a particular person in a video game,
+        </p>
+        <div class="example-border">
+          <div class="avatar-center">
+            <div class="avatar">
+              <img src="./assets/avatar.jpg" alt="avatar-img" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="highlight-code">
+          <pre>
+              <code class="html"  id="avatar1-code" >
+  &lt;div class="avatar"&gt;
+    &lt;img src="./assets/avatar.jpg" alt="avatar-img"/&gt;
+  &lt;/div&gt;
+          </code>
+        </pre>
+        </div>
+      </section>
+      <div class="copy">
+        <button class="copy-btn" data-clipboard-target="#avatar1-code">
+          <i class="far fa-copy"></i>
+        </button>
+      </div>
+      <section>
+        <h2 class="margin-docs">Avatar with different sizes</h2>
+        <div class="example-border">
+          <div class="avatar-center">
+            <div class="avatar-size">
+              <div class="avatar-xs">
+                <img src="./assets/avatar.jpg" alt="" />
+              </div>
+              <div class="avatar-sm">
+                <img src="./assets/avatar.jpg" alt="" />
+              </div>
+              <div class="avatar-md">
+                <img src="./assets/avatar.jpg" alt="" />
+              </div>
+              <div class="avatar-lg">
+                <img src="./assets/avatar.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section>
+        <div class="highlight-code">
+          <pre>
+      <code class="html"  id="avatar2-code" >
+ &lt;div class="avatar-size"&gt;
+  &lt;div class="avatar-xs"&gt;
+   &lt;img src="./assets/avatar.jpg" alt="" /&gt;
+ &lt;/div&gt;
+ &lt;div class="avatar-sm"&gt;
+   &lt;img src="./assets/avatar.jpg" alt="" /&gt;
+ &lt;/div&gt;
+  &lt;div class="avatar-md"&gt;
+   &lt;img src="./assets/avatar.jpg" alt="" /&gt;
+ &lt;/div&gt;
+  &lt;div class="avatar-lg"&gt;
+   &lt;img src="./assets/avatar.jpg" alt="" /&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+
+</code>
+</pre>
+        </div>
+      </section>
+      <div class="copy">
+        <button class="copy-btn" data-clipboard-target="#avatar2-code">
+          <i class="far fa-copy"></i>
+        </button>
+      </div>
+
+      <section>
+        <h1 class="h1-docs content-top" id="alert-content">Alert</h1>
+        <p class="margin-docs">
+          Alerts are used to notify people about special information or a
+          important decision thst requires to perform some tasks.
+        </p>
+        <div class="example-border">
+          <div class="alert">
+            <div class="alert-primary">A simple primary alert!</div>
+            <div class="alert-secondary">A simple secondary alert!</div>
+            <div class="alert-success">A simple success alert!</div>
+            <div class="alert-danger">A simple danger alert!</div>
+            <div class="alert-info">A simple info alert!</div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="highlight-code">
+          <pre>
+        <code class="html"  id="alert-code" >
+    &lt;div class="alert"&gt;
+      &lt;div class="alert-primary"&gt;
+        A simple primary alert!
+      &lt;/div&gt;
+      &lt;div class="alert-secondary"&gt;
+        A simple secondary alert!
+      &lt;/div&gt;
+      &lt;div class="alert-success"&gt;
+        A simple success alert!
+      &lt;/div&gt;
+      &lt;div class="alert-danger"&gt;
+        A simple danger alert!
+      &lt;/div&gt;
+      &lt;div class="alert-info"&gt;
+        A simple info alert!
+      &lt;/div&gt;
+    &lt;/div&gt;
+        </code>
+      </pre>
+        </div>
+      </section>
+      <div class="copy">
+        <button class="copy-btn" data-clipboard-target="#alert-code">
+          <i class="far fa-copy"></i>
+        </button>
+      </div>
+
+      <section>
+        <h1 class="h1-docs content-top" id="badge-content">Badge</h1>
+        <p class="margin-docs">Badges are used to display special information or status of a any item. </p>
+        <div class="example-border">
+          <div class="badge">
+            <div class="badge-primary">Badge</div>
+            <div class="badge-primary">new</div>
+            <div class="badge-circle">9</div>
+            <div class="badge-circle">99+</div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="highlight-code">
+          <pre>
+        <code class="html"  id="badge-code" >
+    &lt;div class="badge-primary"&gt;Badge&lt;/div&gt;
+    &lt;div class="badge-primary"&gt;new&lt;/div&gt;
+    &lt;div class="badge-circle"&gt;9&lt;/div&gt;
+    &lt;div class="badge-circle"&gt;99+&lt;/div&gt;
+        </code>
+      </pre>
+        </div>
+      </section>
+
+      <div class="copy">
+        <button class="copy-btn" data-clipboard-target="#badge-code">
+          <i class="far fa-copy"></i>
+        </button>
+      </div>
+      <section>
+        <h2 class="margin-docs">
+          Profile Badge</h2>
+        <p class="margin-docs">Profile badges status regarding the online visibility of a person </p>
+        <div class="example-border">
+          <div class="avatar-center">
+            <div class="avatar-sm">
+              <img src="./assets/avatar.jpg" alt="" />
+              <div class="badge-success"></div>
+            </div>
+
+            <div class="avatar-sm">
+              <img src="./assets/avatar.jpg" alt="" />
+              <div class="badge-grey"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="highlight-code">
+          <pre>
+        <code class="html"  id="profile-badge-code" >
+   &lt;div class="avatar-sm"&gt;
+     &lt;img src="./assets/avatar.jpg" alt="" /&gt;
+      &lt;div class="badge-success"&gt;&lt;/div&gt;
+   &lt;/div&gt;
+  
+   &lt;div class="avatar-sm"&gt;
+     &lt;img src="./assets/avatar.jpg" alt="" /&gt;
+      &lt;div class="badge-grey"&gt;&lt;/div&gt;
+   &lt;/div&gt;
+          </code>
+          </pre>
+        </div>
+      </section>
+
+      <div class="copy">
+        <button class="copy-btn" data-clipboard-target="#profile-badge-code">
+          <i class="far fa-copy"></i>
+        </button>
+      </div>
+
+      <section>
+        <h2 class="margin-docs">
+          Notification Badge</h2>
+        <p class="margin-docs">Notification badge displays the count of new messages </p>
+        <div class="example-border">
+          <div class="avatar-center">
+            <div class="icon-badge-sm">
+              <i class="fas fa-envelope fa-2x"></i>
+              <div class="badge-number">1</div>
+            </div>
+
+            <div class="icon-badge-md">
+              <i class="fab fa-github-square fa-3x"></i>
+              <div class="badge-number-3x">99+</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="highlight-code">
+          <pre>
+        <code class="html"  id="icon-badge-code" >
+   &lt;div class="icon-badge-sm"&gt;
+     &lt;i class="fas fa-envelope fa-2x"&gt;&lt;/i&gt;
+     &lt;div class="badge-number"&gt;1&lt;/div&gt;
+   &lt;/div&gt;
+  
+   &lt;div class="icon-badge-md"&gt;
+     &lt;i class="fab fa-github-square fa-3x"&gt;&lt;/i&gt;
+     &lt;div class="badge-number-3x"&gt;99+&lt;/div&gt;
+   &lt;/div&gt;
+     </code>
+          </pre>
+        </div>
+      </section>
+
+      <div class="copy">
+        <button class="copy-btn" data-clipboard-target="#icon-badge-code">
+          <i class="far fa-copy"></i>
+        </button>
+      </div>
+
+      <section>
+        <h1 class="h1-docs content-top" id="button-content">Buttons</h1>
+        <p class="margin-docs">Buttons are used to activate an action on a single click.</p>
+        <div class="example-border">
+          <div class="button">
+            <button class="btn btn-default btn-primary">Primary</button>
+            <button class="btn btn-default btn-secondary">Secondary</button>
+            <button class="btn btn-default btn-success">success</button>
+            <button class="btn btn-default btn-danger">alert</button>
+            <button class="btn btn-default btn-info">Info</button>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="highlight-code">
+          <pre>
+        <code class="html"  id="default-btn-code" >
+   &lt;button class="btn btn-default btn-primary"&gt;Primary&lt;/button&gt;
+   &lt;button class="btn btn-default btn-secondary"&gt;Secondary&lt;/button&gt;
+   &lt;button class="btn btn-default btn-success"&gt;success&lt;/button&gt;
+   &lt;button class="btn btn-default btn-danger"&gt;alert&lt;/button&gt;
+   &lt;button class="btn btn-default btn-info"&gt;Info&lt;/button&gt;
+  
+  </code>
+  </pre>
+        </div>
+      </section>
+      <div class="copy">
+        <button class="copy-btn" data-clipboard-target="#default-btn-code">
+          <i class="far fa-copy"></i>
+        </button>
+      </div>
+
+      <section>
+        <h2 class="margin-docs">Outline Buttons</h2>
+        <div class="example-border">
+          <div class="button">
+            <button class="btn btn-outline-primary">Primary</button>
+            <button class="btn btn-outline-secondary">Secondary</button>
+            <button class="btn btn-outline-success">success</button>
+            <button class="btn btn-outline-danger">alert</button>
+            <button class="btn btn-outline-info">Info</button>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="highlight-code">
+          <pre>
+        <code class="html"  id="secondary-btn-code" >
+   &lt;button class="btn btn-outline-primary"&gt;Primary&lt;/button&gt;
+   &lt;button class="btn btn-outline-secondary"&gt;Secondary&lt;/button&gt;
+   &lt;button class="btn btn-outline-success"&gt;success&lt;/button&gt;
+   &lt;button class="btn btn-outline-danger"&gt;alert&lt;/button&gt;
+   &lt;button class="btn btn-outline-info"&gt;Info&lt;/button&gt;
+  
+  </code>
+  </pre>
+        </div>
+      </section>
+      <div class="copy">
+        <button class="copy-btn" data-clipboard-target="#secondary-btn-code">
+          <i class="far fa-copy"></i>
+        </button>
+      </div>
+
+      <section>
+        <h2 class="margin-docs">Button Pills</h2>
+        <div class="example-border">
+          <div class="button">
+            <button class="btn btn-default btn-primary btn-pill">Primary</button>
+            <button class="btn btn-outline-secondary btn-pill">Secondary</button>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="highlight-code">
+          <pre>
+        <code class="html"  id="btn-pill-code" >
+   &lt;button class="btn btn-default btn-primary  btn-pill"&gt;Primary&lt;/button&gt;
+   &lt;button class="btn btn-outline-secondary btn-pill"&gt;Secondary&lt;/button&gt;
+  
+  </code>
+  </pre>
+        </div>
+      </section>
+      <div class="copy">
+        <button class="copy-btn" data-clipboard-target="#btn-pill-code">
+          <i class="far fa-copy"></i>
+        </button>
+      </div>
+
+      <section>
+        <h1 class="h1-docs content-top" id="card-content">Card</h1>
+        <p class="margin-docs">Cards are box like structured component which contains information
+        </p>
+        <h2 class="margin-docs">Simple Card</h2>
+        <div class="simple-card">
+          <h1>Hello world!!</h1>
+          <p>
+            This is a simple card Component used mainly in landing
+            pages.Hey!Thanks for visiting the website and checking out
+            things.Leave me a feedback.
+          </p>
+        </div>
+      </section>
+      <section>
+        <div class="highlight-code">
+          <pre>
+      <code class="html"  id="simple-card-code" >
+  &lt;div class="simple-card"&gt;
+   &lt;h1&gt;Hello world!!&lt;/h1&gt;
+    &lt;p&gt;
+      This is a simple card Component used mainly in landing
+      pages.Hey!Thanks for visiting the website and checking out
+      things.Leave me a feedback.
+    &lt;/p&gt;
+  &lt;/div&gt;
+
+</code>
+</pre>
+        </div>
+      </section>
+      <div class="copy">
+        <button class="copy-btn" data-clipboard-target="#simple-card-code">
+          <i class="far fa-copy"></i>
+        </button>
+      </div>
+      <section>
+        <h2 class="margin-docs">Image Card</h2>
+        <div class="img-card">
+          <img src="./assets/avatar.jpg" alt="" />
+          <h1>Image from unsplash</h1>
+          <p>
+            This is a simple card Component used mainly in landing
+            pages.Hey!Thanks for visiting the website and checking out
+            things.Leave me a feedback.
+          </p>
+        </div>
+      </section>
+      <section>
+        <div class="highlight-code">
+          <pre>
+      <code class="html"  id="image-card-code" >
+  &lt;div class="img-card"&gt;
+    &lt;img src="./assets/avatar.jpg" alt="" /&gt;
+    &lt;h1&gt;Image from unsplash&lt;/h1&gt;
+    &lt;p&gt;This is a simple card Component used mainly in landing
+    pages.Hey!Thanks for visiting the website and checking out
+    things.Leave me a feedback.&lt;/p&gt;
+  &lt;/div&gt;
+
+</code>
+</pre>
+        </div>
+      </section>
+      <div class="copy">
+        <button class="copy-btn" data-clipboard-target="#image-card-code">
+          <i class="far fa-copy"></i>
+        </button>
+      </div>
+      <section>
+        <h2 class="margin-docs">Social media Card</h2>
+        <div class="img-card">
+          <div class="avatar">
+            <img src="./assets/avatar1.jpg" alt="" />
+            <h2 class="profile-name">Harvey Specter</h2>
+          </div>
+
+          <img src="./assets/social_media_card.jpg" alt="" />
+          <p>
+            That’s the difference between you and me. You wanna lose small, I
+            wanna win big.
+          </p>
+        </div>
+      </section>
+      <section>
+        <div class="highlight-code">
+          <pre>
+      <code class="html"  id="social-media-card-code" >
+  &lt;div class="img-card"&gt;
+    &lt;div class="avatar"&gt;
+      &lt;img src="./assets/avatar1.jpg" alt="" /&gt;
+      &lt;h2 class="profile-name"&gt;Harvey Specter&lt;/h2&gt;
+    &lt;/div&gt;
+
+    &lt;img src="./assets/social_media_card.jpg" alt="" /&gt;
+    &lt;p&gt;That’s the difference between you and me. You wanna lose small, I
+    wanna win big.&lt;/p&gt;
+  &lt;/div&gt;
+</code>
+</pre>
+        </div>
+      </section>
+      <div class="copy">
+        <button class="copy-btn" data-clipboard-target="#social-media-card-code">
+          <i class="far fa-copy"></i>
+        </button>
+      </div>
+      <section>
+        <h2 class="margin-docs">eCommerce Card</h2>
+        <div class="eCommerce-list">
+          <div class="eCommerce-card">
+            <img src="./assets/ecommerce-card.jpg" alt="" />
+            <button class="remove-btn center">X</button>
+            <a href="javascript:void(0)" target="_blank">
+              <h1>Oculus Quest 2 - Advanced</h1>
+            </a>
+            <h2>Price: ₹ 54,999.00</h2>
+            <h3>Local Electronics</h3>
+          </div>
+          <div class="eCommerce-card">
+            <img src="./assets/img-square.jfif" alt="" />
+            <button class="remove-btn center">X</button>
+            <a href="javascript:void(0)" target="_blank">
+              <h1>Oculus Quest 2 - Advanced</h1>
+            </a>
+            <h2>Price: ₹ 54,999.00</h2>
+            <h3>Local Electronics</h3>
+          </div>
+      </section>
+      <section>
+        <div class="highlight-code">
+          <pre>
+      <code class="html"  id="eCommerce-card" >
+  &lt;div class="eCommerce-list"&gt;
+  &lt;div class="eCommerce-card"&gt;
+  &lt;img src="./assets/ecommerce-card.jpg" alt="" /&gt;
+  &lt;p class="badge-primary"&gt;NEW&lt;/p&gt;
+  &lt;button class="remove-btn btn btn-default "&gt;X&lt;/button&gt;
+  &lt;a href="javascript:void(0)" target="_blank"&gt;
+  &lt;h2&gt;Price: ₹ 54,999.00&lt;/h2&gt;
+  &lt;h3&gt;Local Electronics&lt;/h3&gt;
+  &lt;/div&gt;
+  &lt;/div&gt;
+
+</code>
+</pre>
+        </div>
+      </section>
+      <div class="copy">
+        <button class="copy-btn" data-clipboard-target="#eCommerce-card">
+          <i class="far fa-copy"></i>
+        </button>
+      </div>
+
+      <section>
+        <h1 class="h1-docs content-top" id="grid-content">Grids</h1>
+        <p class="margin-docs">Grids are used to group rows and columns together.</p>
+        <h2 class="margin-docs">Simple Grid</h2>
+        <div class="example-border">
+          <div class="grid center">
+            <div class="two-cloumns-row">
+              <div>
+                <p>one</p>
+              </div>
+              <div>
+                <p>two</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="highlight-code">
+          <pre>
+      <code class="html"  id="simple-grid-code" >
+ &lt;div class="grid center"&gt;
+  &lt;div class="two-cloumns-row"&gt;
+   &lt;div&gt;
+    &lt;p&gt;one&lt;/p&gt;
+   &lt;/div&gt;
+   &lt;div&gt;
+    &lt;p&gt;two&lt;/p&gt;
+   &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+      </code>
+      </pre>
+        </div>
+      </section>
+      <div class="copy"> <button class="copy-btn" data-clipboard-target="#simple-grid-code">
+          <i class="far fa-copy"></i>
+        </button>
+      </div>
+
+      <section>
+        <h2 class="margin-docs">Grid with 3 Columns</h2>
+        <div class="example-border">
+          <div class="grid center">
+            <div class="three-cloumns-row">
+              <div>
+                <p>one</p>
+              </div>
+              <div>
+                <p>two</p>
+              </div>
+              <div>
+                <p>three</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="highlight-code">
+          <pre>
+            <code class="html"  id="Col3-row-grid-code" >
+  &lt;div class="grid center"&gt;
+   &lt;div class="three-cloumns-row"&gt;
+    &lt;div&gt;
+     &lt;p&gt;one&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;p&gt;two&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;p&gt;three&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+            </code>
+            </pre>
+        </div>
+      </section>
+      <div class="copy"> <button class="copy-btn" data-clipboard-target="#Col3-row-grid-code">
+          <i class="far fa-copy"></i>
+        </button>
+      </div>
+
+      <section>
+        <h2 class="margin-docs">Responsive Grid</h2>
+        <div class="example-border">
+          <div class="grid">
+            <div class="two-cloumns-row ">
+              <div>
+                <p>one</p>
+              </div>
+              <div>
+                <p>two</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="highlight-code">
+          <pre>
+            <code class="html"  id="responsive-grid-code" >
+ &lt;div class="grid"&gt;
+  &lt;div class="two-cloumns-row "&gt;
+   &lt;div&gt;
+    &lt;p&gt;one&lt;/p&gt;
+   &lt;/div&gt;
+   &lt;div&gt;
+    &lt;p&gt;two&lt;/p&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+            </code>
+</pre>
+        </div>
+      </section>
+      <div class="copy"> <button class="copy-btn" data-clipboard-target="#responsive-grid-code"> <i
+            class="far fa-copy"></i>
+        </button>
+      </div>
+
+      <section>
+        <h1 class="h1-docs content-top" id="image-content">Images</h1>
+        <h2 class="margin-docs">Square Image</h2>
+        <div class="image-center">
+          <div class="img-square">
+            <img src="./assets/img-square.jfif" alt="Watch" />
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="highlight-code">
+          <pre>
+        <code class="html"  id="square-img-code" >
+    &lt;div class="img-square"&gt;
+      &lt;img src="./assets/img-square.jfif" alt="Watch"/&gt;
+    &lt;/div&gt;
+    
+  </code>
+  </pre>
+        </div>
+      </section>
+      <div class="copy">
+        <button class="copy-btn" data-clipboard-target="#square-img-code">
+          <i class="far fa-copy"></i>
+        </button>
+      </div>
+
+      <section>
+        <h2 class="margin-docs">Round Image</h2>
+        <div class="image-center">
+          <div class="img-rounded">
+            <img src="./assets/img-rounded.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="highlight-code">
+          <pre>
+        <code class="html"  id="rounded-img-code" >
+    &lt;div class="img-rounded"&gt;
+      &lt;img src="./assets/img-rounded.jpg" alt="" /&gt;
+    &lt;/div&gt;
+  </code>
+  </pre>
+        </div>
+      </section>
+
+      <div class="copy">
+        <button class="copy-btn" data-clipboard-target="#rounded-img-code">
+          <i class="far fa-copy"></i>
+        </button>
+      </div>
+
+      <section>
+        <h2 class="margin-docs">Responsive image</h2>
+        <div class="example-border">
+          <div class="img-responsive">
+            <img src="./assets/img-responsive.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="highlight-code">
+          <pre>
+            <code class="html"  id="responsive-img-code" >
+    &lt;div class="img-responsive"&gt;
+      &lt;img src="./assets/img-responsive.jpg" alt="" /&gt;
+    &lt;/div&gt;
+            </code>
+          </pre>
+        </div>
+      </section>
+
+      <div class="copy">
+        <button class="copy-btn" data-clipboard-target="#responsive-img-code">
+          <i class="far fa-copy"></i>
+        </button>
+      </div>
+
+
+      <section>
+        <h1 class="h1-docs content-top" id="input-content">Inputs</h1>
+        <p class="margin-docs">Inputs are used to collect information or a response from
+          the user such as
+          username,
+          decisons.</p>
+        <h2 class="margin-docs">Simple Login Input</h2>
+
+
+        <div class="center">
+          <div class="input">
+            <form>
+              <div class=" h1-login center">
+                <h1>LOGIN</h1>
+              </div>
+              <div>
+                <label class=" email-label label-size" for="email">Email</label>
+              </div>
+              <input class="email-input" type="email" name="email" id="email" />
+              <div>
+                <label class="password-label label-size" for="password ">Password</label>
+              </div>
+              <input class="password-input" type="password" name="password" id="password" />
+              <div class="center">
+                <button class="btn-block btn-default btn-primary">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="highlight-code">
+          <pre>
+  <code class="html"  id="login-form-code" >
+   &lt;div class="center"&gt;
+    &lt;div class="input"&gt;
+     &lt;form&gt;
+      &lt;div class="brand h1-login center"&gt;
+       &lt;h1&gt;Ajay&lt;/h1&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+       &lt;label class=" email-label label-size" for="email"&gt;Email&lt;/label&gt;
+      &lt;/div&gt;
+      &lt;input class="email-input" type="email" name="email" id="email" /&gt;
+      &lt;div&gt;
+       &lt;label class="password-label label-size" for="password "&gt;Password&lt;/label&gt;
+      &lt;/div&gt;
+      &lt;input class="password-input" type="password" name="password" id="password" /&gt;
+      &lt;div class="center"&gt;
+       &lt;button class="btn-block btn-default btn-primary"&gt;Submit&lt;/button&gt;
+      &lt;/div&gt;
+     &lt;/form&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+  	</code>
+  	</pre>
+
+        </div>
+      </section>
+
+      <div class="copy">
+        <button class="copy-btn" data-clipboard-target="#login-form-code">
+          <i class="far fa-copy"></i>
+        </button>
+      </div>
+
+      <section>
+        <h1>Radio Button</h1>
+        <div class="example-border">
+          <div class="center">
+            <div class=" radio-btn">
+              <input type="radio" name="radio-input" id="radio-checked" checked />
+              <label for="radio-checked">Checked</label>
+
+              <input type="radio" name="radio-input" id="radio-unchecked" Unchecked />
+              <label for="radio-unchecked">Unchecked</label>
+
+
+              <input type="radio" name="radio-input" id="radio-disabled" disabled />
+              <label for="radio-disabled">Disabled</label>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="highlight-code">
+          <pre>
+  	<code class="html"  id="radio-btn-code" >
+   &lt;div class="radio-btn"&gt;
+    &lt;input type="radio" name="radio-input" id="radio-checked" checked /&gt;
+    &lt;label for="radio-checked"&gt;Checked&lt;/label&gt;
+  
+    &lt;input type="radio" name="radio-input" id="radio-unchecked" Unchecked /&gt;
+    &lt;label for="radio-unchecked"&gt;Unchecked&lt;/label&gt;
+  
+  
+    &lt;input type="radio" name="radio-input" id="radio-disabled" disabled /&gt;
+    &lt;label for="radio-disabled"&gt;Disabled&lt;/label&gt;
+   &lt;/div&gt;
+  	</code>
+  	</pre>
+        </div>
+      </section>
+
+      <div class="copy">
+        <button class="copy-btn" data-clipboard-target="#radio-btn-code">
+          <i class="far fa-copy"></i>
+        </button>
+      </div>
+
+
+      <section>
+        <h1>checkbox</h1>
+        <div class="example-border">
+          <div class="center">
+            <div class="checkbox">
+              <input type="checkbox" name="checkbox-input" id="checkbox-checked" checked />
+              <label for="checkbox-checked">Checked</label>
+
+              <input type="checkbox" name="checkbox-input" id="checkbox-unchecked" Unchecked />
+              <label for="checkbox-unchecked">Unchecked</label>
+
+              <input type="checkbox" name="checkbox-input" id="checkbox-disabled" disabled />
+              <label for="checkbox-disabled">Disabled</label>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="highlight-code">
+          <pre>
+  <code class="html"  id="checkbox-code" >
+   &lt;div class="checkbox"&gt;
+    &lt;input type="checkbox" name="checkbox-input" id="checkbox-checked" checked /&gt;
+    &lt;label for="checkbox-checked"&gt;Checked&lt;/label&gt;
+  
+    &lt;input type="checkbox" name="checkbox-input" id="checkbox-unchecked" Unchecked /&gt;
+    &lt;label for="checkbox-unchecked"&gt;Unchecked&lt;/label&gt;
+  
+    &lt;input type="checkbox" name="checkbox-input" id="checkbox-disabled" disabled /&gt;
+    &lt;label for="checkbox-disabled"&gt;Disabled&lt;/label&gt;
+   &lt;/div&gt;
+   
+  </code>
+  </pre>
+        </div>
+      </section>
+
+      <div class="copy">
+        <button class="copy-btn" data-clipboard-target="#checkbox-code">
+          <i class="far fa-copy"></i>
+        </button>
+      </div>
+
+
+      <section>
+        <div class="list">
+          <h1 class="h1-docs content-top" id="lists-content">List</h1>
+          <p class="margin-docs">Lists are used to display a sequence of information.
+          </p>
+          <h2 class="margin-docs">Stacked list</h2>
+          <div class="example-border">
+            <ul class="stacked-list list-decor">
+              <li class="list-heading">
+                <h1>Categories</h1>
+              </li>
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <li>Item 3</li>
+              <li>Item 4</li>
+              <li>Item 5</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="highlight-code">
+          <pre>
+  <code class="html"  id="stacked-list-code" >
+   &lt;ul class="stacked-list list-decor"&gt;
+   &lt;li class="list-heading"&gt;
+    &lt;h1&gt;Categories&lt;/h1&gt;
+   &lt;/li&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+    &lt;li&gt;Item 2&lt;/li&gt;
+    &lt;li&gt;Item 3&lt;/li&gt;
+    &lt;li&gt;Item 4&lt;/li&gt;
+    &lt;li&gt;Item 5&lt;/li&gt;
+   &lt;/ul&gt;
+    </code>
+      </pre>
+        </div>
+      </section>
+      <div class="copy">
+        <button class="copy-btn" data-clipboard-target="#stacked-list-code">
+          <i class="far fa-copy"></i>
+        </button>
+      </div>
+      <section>
+        <div class="list">
+          <h2 class="margin-docs">Nested list</h2>
+          <div class="example-border">
+            <ul class="nested-list list-decor">
+              <li class="list-heading ">
+                <h1>Categories</h1>
+              </li>
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <li>
+                Item 3
+                <ul class=" list-decor">
+                  <li>option 1</li>
+                  <li>option 2</li>
+                </ul>
+              </li>
+              <li>Item 4</li>
+              <li>
+                Item 5
+                <ul class=" list-decor">
+                  <li>option 1</li>
+                  <li>option 2</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="highlight-code">
+          <pre>
+    <code class="html"  id="nested-list-code" >
+    &lt;ul class="nested-list list-decor"&gt;
+     &lt;li class="list-heading "&gt;
+      &lt;h1&gt;Categories&lt;/h1&gt;
+     &lt;/li&gt;
+     &lt;li&gt;Item 1&lt;/li&gt;
+     &lt;li&gt;Item 2&lt;/li&gt;
+     &lt;li&gt;Item 3
+       &lt;ul class=" list-decor"&gt;
+       &lt;li&gt;option 1&lt;/li&gt;
+       &lt;li&gt;option 2&lt;/li&gt;
+       &lt;/ul&gt;
+     &lt;/li&gt;
+     &lt;li&gt;Item 4&lt;/li&gt;
+     &lt;li&gt;Item 5
+       &lt;ul class=" list-decor"&gt;
+        &lt;li&gt;option 1&lt;/li&gt;
+        &lt;li&gt;option 2&lt;/li&gt;
+       &lt;/ul&gt;
+     &lt;/li&gt;
+    &lt;/ul&gt;
+    </code>
+    </pre>
+        </div>
+      </section>
+      <div class="copy">
+        <button class="copy-btn" data-clipboard-target="#nested-list-code">
+          <i class="far fa-copy"></i>
+        </button>
+      </div>
+
+
+      <section>
+        <h1 class="h1-docs content-top " id="modal-content">Modal</h1>
+        <p class="margin-docs">Modal is dialog box which is displayed on top of the
+          current page which requires
+          user
+          interactions.</p>
+        <div class="example-border">
+          <div class="modal-btn center">
+            <button class="btn btn-default btn-primary">CLICK HERE</button>
+          </div>
+          <div class="center">
+            <div class="modal-hide ">
+              <button class="modal-close">
+                <i class="fas fa-times  "></i>
+              </button>
+              <div class="center">
+                <h1>WELCOME!</h1>
+              </div>
+              <div class="center">
+                <p>Sign up for our weekly newsletter!</p>
+              </div>
+              <div class="input-label">
+                <div class="username">
+                  <input type="email" name="email" id="email" />
+                </div>
+              </div>
+              <div class="submit center">
+                <button class="btn btn-default btn-success">SUBMIT</button>
+              </div>
+            </div>
+          </div>
+      </section>
+      <section>
+        <div class="highlight-code">
+          <pre>
+      <code class="html"  id="modal-code" >
+      &lt;div class="modal-btn center"&gt;
+       &lt;button class="btn btn-primary"&gt;CLICK HERE&lt;/button&gt;
+      &lt;/div&gt;
+    
+       &lt;div class="center"&gt;
+       &lt;div class="modal-hide "&gt;
+        &lt;button class="modal-close"&gt;
+         &lt;i class="fas fa-times "&gt;&lt;/i&gt;
+        &lt;/button&gt;
+        &lt;div class="center"&gt;
+         &lt;h1&gt;WELCOME!&lt;/h1&gt;
+        &lt;/div&gt;
+        &lt;div class="center"&gt;
+         &lt;p&gt;Sign up for our weekly newsletter!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="input-label"&gt;
+        &lt;div class="username"&gt;
+         &lt;input type="email" name="email" id="email" /&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="submit center"&gt;
+         &lt;button class="btn btn-success"&gt;SUBMIT&lt;/button&gt;
+        &lt;/div&gt;
+       &lt;/div&gt;
+    
+      </code>
+      </pre>
+        </div>
+      </section>
+      <div class="copy">
+        <button class="copy-btn" data-clipboard-target="#modal-code">
+          <i class="far fa-copy"></i>
+        </button>
+      </div>
+
+
+      <section>
+        <h1 class="h1-docs content-top " id="navigation-content">Navigation</h1>
+        <p class="margin-docs"> Navigation is a menu which contains important links
+          to acess the other sections
+          of
+          webpage.
+        </p>
+        <h2 class="margin-docs">Simple Navbar</2>
+          <div class="nav">
+            <div class="nav-list default">
+              <li><a href="javascript:void(0)" target="_blank">Home</a>
+              </li>
+              <li><a href="javascript:void(0)" target="_blank">Products</a></li>
+              <li><a href="javascript:void(0)" target="_blank">About</a>
+              </li>
+              <li><a href="javascript:void(0)" target="_blank">Blog</a>
+              </li>
+            </div>
+          </div>
+      </section>
+
+      <section>
+        <div class="highlight-code">
+          <pre>
+    <code class="html"  id="simple-nav-code" >
+   &lt;div class="nav-list default"&gt;
+    &lt;li&gt;&lt;a href="http://" target="_blank"&gt;Home&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://" target="_blank"&gt;Products&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://" target="_blank"&gt;About&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://" target="_blank"&gt;Blog&lt;/a&gt;&lt;/li&gt;
+   &lt;/div&gt;
+    </code>
+    </pre>
+        </div>
+      </section>
+      <div class="copy">
+        <button class="copy-btn" data-clipboard-target="#simple-nav-code">
+          <i class="far fa-copy"></i>
+        </button>
+      </div>
+
+      <section>
+        <h2 class="margin-docs">Responsive navbar with collapsible menu</h2>
+        <div class="nav">
+          <div class="nav-list nav-mobile-list nav-responsive ">
+            <div>
+              <brand>BRAND</brand>
+            </div>
+            <div class="nav-collapse">
+              <button class="nav-toggle"><i class="fas fa-bars fa-2x"></i></button>
+              <div class="nav-hide ">
+                <li><a href="javascript:void(0)" target="_blank">Home</a></li>
+                <li><a href="javascript:void(0)" target="_blank">Products</a></li>
+                <li><a href="javascript:void(0)" target="_blank">About</a></li>
+                <li><a href="javascript:void(0)" target="_blank">Blog</a></li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="highlight-code">
+          <pre>
+    <code class="html"  id="responsive-nav-code" >
+   &lt;div class="nav"&gt;
+    &lt;div class="nav-list nav-mobile-list nav-responsive "&gt;
+     &lt;div&gt;&lt;brand&gt;BRAND&lt;/brand&gt;&lt;/div&gt;
+     &lt;div class="nav-collapse"&gt;
+      &lt;button class="nav-toggle"&gt;
+        &lt;i class="fas fa-bars fa-2x"&gt;&lt;/i&gt;
+      &lt;/button&gt;
+    &lt;div class="nav-hide "&gt;
+     &lt;li&gt;&lt;a href=""&gt;Home target="_blank"&lt;/a&gt;&lt;/li&gt;
+     &lt;li&gt;&lt;a href=""&gt;Products target="_blank"&lt;/a&gt;&lt;/li&gt;
+     &lt;li&gt;&lt;a href=""&gt;About target="_blank"&lt;/a&gt; &lt;/li&gt;
+     &lt;li&gt;&lt;a href=""&gt;Blog target="_blank"&lt;/a&gt;&lt;/li&gt;
+     &lt;/div&gt;
+     &lt;/div&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+    </code>
+    </pre>
+        </div>
+      </section>
+      <div class="copy">
+        <button class="copy-btn" data-clipboard-target="#responsive-nav-code">
+          <i class="far fa-copy"></i>
+        </button>
+      </div>
+
+      <section>
+        <h1 class="h1-docs content-top" id="rating-content">Rating</h1>
+        <div class="example-border">
+          <div class="rating">
+            <input type="radio" name="rating" id="star-5" />
+            <label for="star-5" class="fas fa-star fa-2x star-rating"></label>
+            <input type="radio" name="rating" id="star-4" />
+            <label for="star-4" class="fas fa-star fa-2x star-rating"></label>
+            <input type="radio" name="rating" id="star-3" />
+            <label for="star-3" class="fas fa-star fa-2x star-rating"></label>
+            <input type="radio" name="rating" id="star-2" />
+            <label for="star-2" class="fas fa-star fa-2x star-rating"></label>
+            <input type="radio" name="rating" id="star-1" />
+            <label for="star-1" class="fas fa-star fa-2x star-rating"></label>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="highlight-code">
+          <pre>
+    <code class="html"  id="rating-code" >
+   &lt;div class="rating"&gt;
+    &lt;input type="radio" name="rating" id="star-5" /&gt;
+    &lt;label for="star-5" class="fas fa-star fa-2x star-rating"&gt;&lt;/label&gt;
+    &lt;input type="radio" name="rating" id="star-4" /&gt;
+    &lt;label for="star-4" class="fas fa-star fa-2x star-rating"&gt;&lt;/label&gt;
+    &lt;input type="radio" name="rating" id="star-3" /&gt;
+    &lt;label for="star-3" class="fas fa-star fa-2x star-rating"&gt;&lt;/label&gt;
+    &lt;input type="radio" name="rating" id="star-2" /&gt;
+    &lt;label for="star-2" class="fas fa-star fa-2x star-rating"&gt;&lt;/label&gt;
+    &lt;input type="radio" name="rating" id="star-1" /&gt;
+    &lt;label for="star-1" class="fas fa-star fa-2x star-rating"&gt;&lt;/label&gt;
+   &lt;/div&gt;
+    </code>
+    </pre>
+        </div>
+      </section>
+      <div class="copy">
+        <button class="copy-btn" data-clipboard-target="#rating-code">
+          <i class="far fa-copy"></i>
+        </button>
+      </div>
+
+      <section>
+        <h1 class="h1-docs content-top" id="text-utl-content">Text Utilities</h1>
+
+        <h2 class="margin-docs">Headings</h2>
+        <div class="example-border">
+          <div>
+            <h1 class="Ajay-h1">h1. Ajay heading</h1>
+            <h2 class="Ajay-h2">h2. Ajay heading</h2>
+            <h3 class="Ajay-h3">h3. Ajay heading</h3>
+            <h4 class="Ajay-h4">h4. Ajay heading</h4>
+            <h5 class="Ajay-h5">h5. Ajay heading</h5>
+            <h6 class="Ajay-h6">h6. Ajay heading</h6>
+          </div>
+        </div>
+      </section>
+
+
+      <section>
+        <div class="highlight-code">
+          <pre>
+          <code class="html"  id="headings-code" >
+   &lt;div&gt;
+    &lt;h1 class="Ajay-h1"&gt;h1. Ajay heading&lt;/h1&gt;
+    &lt;h2 class="Ajay-h2"&gt;h2. Ajay heading&lt;/h2&gt;
+    &lt;h3 class="Ajay-h3"&gt;h3. Ajay heading&lt;/h3&gt;
+    &lt;h4 class="Ajay-h4"&gt;h4. Ajay heading&lt;/h4&gt;
+    &lt;h5 class="Ajay-h5"&gt;h5. Ajay heading&lt;/h5&gt;
+    &lt;h6 class="Ajay-h6"&gt;h6. Ajay heading&lt;/h6&gt;
+   &lt;/div&gt;
+    </code>
+    </pre>
+        </div>
+      </section>
+      <div class="copy">
+        <button class="copy-btn" data-clipboard-target="#headings-code">
+          <i class="far fa-copy"></i>
+        </button>
+      </div>
+      <section>
+        <h2 class="margin-docs">Small Text</h2>
+        <div class="example-border">
+          <div>
+            <small class="small">This text is small</small>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="highlight-code">
+          <pre>
+          <code class="html"  id="small-text-code" >
+    &lt;div&gt;
+      &lt;small class="small"&gt;This text is small&lt;/small&gt;
+    &lt;/div&gt;
+        </code>
+        </pre>
+        </div>
+      </section>
+      <div class="copy">
+        <button class="copy-btn" data-clipboard-target="#small-text-code">
+          <i class="far fa-copy"></i>
+        </button>
+      </div>
+      <section>
+        <h2 class="margin-docs">Grey Text</h2>
+        <div class="example-border">
+          <div>
+            <h1 class="grey">This text is in Grey</h1>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="highlight-code">
+          <pre>
+        <code class="html"  id="grey-text-code" >
+    &lt;div&gt;
+     &lt;h1 class="grey"&gt;This text is in Grey&lt;/h1&gt;
+    &lt;/div&gt;
+      </code>
+      </pre>
+        </div>
+      </section>
+      <div class="copy">
+        <button class="copy-btn" data-clipboard-target="#grey-text-code">
+          <i class="far fa-copy"></i>
+        </button>
+      </div>
+
+      <section>
+        <h2 class="margin-docs">Center Text</h2>
+        <div class="example-border">
+          <div>
+            <h1 class="center">This text is in center</h1>
+          </div>
+        </div>
+      </section>
+
+
+      <section>
+        <div class="highlight-code">
+          <pre>
+      <code class="html"  id="center-text-code" >
+    &lt;div&gt;
+      &lt;h1 class="center"&gt;This text is in center&lt;/h1&gt;
+    &lt;/div&gt;
+    </code>
+    </pre>
+        </div>
+      </section>
+      <div class="copy">
+        <button class="copy-btn" data-clipboard-target="#center-text-code">
+          <i class="far fa-copy"></i>
+        </button>
+      </div>
+
+
+      <section>
+        <h1 class="h1-docs content-top" id="toast-content">Toast</h1>
+        <p class="margin-docs">Toasts are used to display notifications
+          on user interaction </p>
+        <div class="example-border">
+          <div class="toast">
+            <div class="toast-content">
+              <p class="toast-check center">✓</p>
+              <div class="toast-message">
+                <span class="toast-text toast-text1">Success</span>
+                <span class="toast-text toast-text2 ">Item added to the cart</span>
+              </div>
+            </div>
+            <p class="toast-close">✕</p>
+            <div class="toast-progress"></div>
+          </div>
+          <button class="btn btn-default btn-primary btn-toast"> Show Toast</button>
+        </div>
+      </section>
+      <section>
+        <div class="highlight-code">
+          <pre>
+          <code class="html"  id="toast-code" >
+      &lt;div class="toast"&gt;
+      &lt;div class="toast-content"&gt;
+      &lt;p class="toast-check center" &gt;✓ &lt;/p&gt;
+      &lt;div class="toast-message"&gt;
+      &lt;span class="toast-text toast-text1"&gt;
+      Success &lt;/span&gt;
+      &lt;span class="toast-text toast-text2 "&gt;
+      Item added to the cart &lt;/span&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;p class="toast-close" &gt;✕&lt;/p&gt;
+      &lt;div class="toast-progress" &gt; &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;button class="btn btn-default btn-primary btn-toast"&gt; Show Toast &lt;/button&gt;
+      &lt;/div&gt;
+          </code>
+          </pre>
+        </div>
+      </section>
+      <div class="copy">
+        <button class="copy-btn" data-clipboard-target="#toast-code">
+          <i class="far fa-copy"></i>
+        </button>
+      </div>
+    </div>
+
+
+
+    <footer class="footer">
+      <div class="center">
+        <p> 2021 | Inspired by <span><a href="https://getbootstrap.com/">
+              Bootstrap</a></span></p>
+      </div>
+      <div class="center social-links">
+        <a href="https://twitter.com/thekumaraswamy" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/kumaraswamya/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/thekumaraswamy/" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll()
+    </script>
+    <script src="./main.js"></script>
+    <script src="./components.js"></script>
+</body>
+
+</html>

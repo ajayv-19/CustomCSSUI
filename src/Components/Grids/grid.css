@@ -1,0 +1,24 @@
+.two-cloumns-row {
+	display: grid;
+	padding: 2rem;
+	grid-template-columns: repeat(2, auto);
+	grid-template-rows: auto;
+}
+.two-cloumns-row div {
+	padding: 1rem;
+	border: 0.1rem solid rgba(68, 68, 68, 0.603);
+
+	justify-content: center;
+	align-items: center;
+}
+.three-cloumns-row {
+	display: grid;
+	padding: 2rem;
+	grid-template-columns: repeat(3, auto);
+}
+.three-cloumns-row div {
+	padding: 1rem;
+	border: 0.1rem solid rgba(68, 68, 68, 0.603);
+	justify-content: center;
+	align-items: center;
+}

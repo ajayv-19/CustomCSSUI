@@ -1,0 +1,61 @@
+.modal .input-label {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.modal #email {
+	padding: 0.5rem;
+	border-style: inset;
+	outline-color: var(--secondary-color);
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	width: 15rem;
+}
+
+.modal-hide {
+	display: none;
+}
+
+.modal {
+	display: block;
+
+	z-index: 99;
+	border: 1px solid rgba(0, 0, 0, 0.219);
+	margin: auto;
+	width: 20rem;
+
+	background-color: blanchedalmond;
+	align-content: center;
+	border-radius: 0.5rem;
+}
+
+.modal .btn {
+	padding: 1rem;
+	border-radius: 0.2rem;
+	font-size: medium;
+	display: flex;
+	justify-content: center;
+}
+
+.modal-close {
+	position: relative;
+	left: 19rem;
+	bottom: o.5rem;
+	padding: 0.2rem;
+	outline: 0;
+	border: none;
+	color: var(--danger-color);
+	background-color: transparent;
+}
+
+.modal {
+	animation: fadeIn ease-in 0.3s;
+}
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 100;
+	}
+}

@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: "Open Sans", sans-serif;
+}
+html,
+body {
+	overflow-x: hidden;
+}
+
+.example-border {
+	padding: 1rem;
+	border: 0.1rem solid rgba(221, 207, 207, 0.678);
+	border-radius: 1rem;
+	background: #ffffff;
+	box-shadow: 20px 20px 60px #e7e7e7, -20px -20px 60px #ffffffcb;
+	margin: 1rem;
+}
+
+.img-meaning {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+}
+
+.img-meaning img {
+	height: 30rem;
+	width: 20rem;
+	-webkit-box-shadow: 7px 9px 5px -4px rgba(173, 173, 173, 0.6);
+	-moz-box-shadow: 7px 9px 5px -4px rgba(173, 173, 173, 0.6);
+	box-shadow: 7px 9px 5px -4px rgba(173, 173, 173, 0.6);
+}
+
+code {
+	width: 30rem;
+	border-radius: 1rem;
+}
+
+pre {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0.5rem;
+}
+
+.head-tag {
+	display: inline;
+	color: red;
+}
+.copy {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 1rem;
+}
+
+.copy button {
+	outline: #ffffff;
+	padding: 1rem;
+	background-color: rgb(39, 39, 39);
+	color: rgb(255, 255, 255);
+	border-radius: 4rem;
+	border: none;
+}
+
+.copy button i {
+	animation: blink 1s infinite;
+}
+@keyframes blink {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0.25;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+section {
+	margin: 1rem 0.5rem;
+}
+
+.h1-docs {
+	font-size: 2rem;
+	margin: 0.5rem;
+}
+.margin-docs {
+	margin-bottom: 1rem;
+	margin-left: 0.5rem;
+}
+.show-content {
+	display: block;
+}
+
+.hide-content {
+	display: none;
+}
+
+.footer {
+	margin: 0 !important;
+	padding: 1rem;
+	width: 100%;
+	color: white;
+	background-color: #000000;
+	background-image: linear-gradient(
+		to top,
+		#000000,
+		#0c0c0c,
+		#151515,
+		#1b1b1b,
+		#222222
+	);
+}
+
+.footer a {
+	text-decoration: none;
+	color: rgba(212, 212, 212, 0.877);
+}
+
+.social-links {
+	padding: 0.5rem;
+}
+.social-links a {
+	padding: 0.5rem;
+	color: rgb(255, 255, 255);
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.docs a {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.842);
+}
+
+@media screen and (min-width: 600px) {
+	.show-content {
+		width: 80%;
+	}
+
+	.footer {
+		grid-area: footer;
+	}
+
+	.show-content {
+		padding: 1rem;
+	}
+
+	.footer {
+		grid-area: footer;
+		margin: 0 !important;
+		padding: 1rem;
+	}
+}

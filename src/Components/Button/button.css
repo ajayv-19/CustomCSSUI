@@ -1,0 +1,83 @@
+.btn-success {
+	background-color: var(--success-color);
+	color: black;
+}
+.btn-default {
+	outline: 0;
+	border: none;
+}
+
+.btn-danger {
+	background-color: var(--danger-color);
+	color: white;
+}
+.btn-info {
+	background-color: var(--info-color);
+	color: black;
+}
+
+.btn-primary {
+	background-color: var(--primary-color);
+	color: white;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.btn {
+	padding: 1rem;
+	border-radius: 0.3rem;
+	margin: 0.5rem;
+	font-size: medium;
+	box-sizing: border-box;
+}
+
+.btn-secondary {
+	background-color: var(--secondary-color);
+	color: rgb(0, 0, 0);
+}
+.btn-outline-primary {
+	border: 0.1rem solid var(--primary-color);
+	background-color: white;
+	color: black;
+}
+.btn-outline-secondary {
+	border: 0.1rem solid var(--secondary-color);
+	background-color: white;
+	color: black;
+}
+
+.btn-outline-success {
+	border: 0.1rem solid var(--success-color);
+	background-color: white;
+	color: black;
+}
+.btn-outline-danger {
+	border: 0.1rem solid var(--danger-color);
+	background-color: white;
+	color: black;
+}
+.btn-outline-info {
+	border: 0.1rem solid var(--info-color);
+	background-color: white;
+	color: black;
+}
+
+.btn-pill {
+	border-radius: 3rem;
+	outline: 0;
+}
+
+.btn:active {
+	transform: translateY(1px);
+}
+
+.btn:hover {
+	box-shadow: 0 0 0 1px rgba(50, 50, 93, 0.1), 0 2px 5px 0 rgba(50, 50, 93, 0.1),
+		0 3px 9px 0 rgba(50, 50, 93, 0.08), 0 1px 1.5px 0 rgba(0, 0, 0, 0.08),
+		0 1px 2px 0 rgba(0, 0, 0, 0.08);
+}

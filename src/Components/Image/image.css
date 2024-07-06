@@ -1,0 +1,22 @@
+.img-square img {
+	height: 15rem;
+	width: 15rem;
+}
+
+.img-rounded img {
+	height: 15rem;
+	width: 15rem;
+	border-radius: 50%;
+}
+
+.img-responsive img {
+	height: auto;
+	width: 100%;
+	object-fit: cover;
+}
+
+.image-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
